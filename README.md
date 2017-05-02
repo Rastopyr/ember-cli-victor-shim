@@ -1,6 +1,6 @@
 # ember-cli-victor-shim
 
-This README outlines the details of collaborating on this Ember addon.
+Shim to [victorjs](victorjs.org) npm package.
 
 ## Installation
 
@@ -13,6 +13,21 @@ This README outlines the details of collaborating on this Ember addon.
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+
+## How to use
+
+Import Paper in you code%
+
+```es6
+import Ember from 'ember';
+import Victor from 'victor';
+
+export default Ember.Object.extend({
+  vector() {
+    return new Victor(0, 0)
+  }
+});
+```
 
 ## Running Tests
 
