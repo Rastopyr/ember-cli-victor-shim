@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-victor-shim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^6.0.0-beta.3",
-    "victor": "^1.1.0"
+    "victor": "https://github.com/Rastopyr/victor.git"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
