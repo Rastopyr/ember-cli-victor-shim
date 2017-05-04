@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Rastopyr/ember-cli-victor-shim.png?label=ready&title=Ready)](https://waffle.io/Rastopyr/ember-cli-victor-shim)
 # ember-cli-victor-shim
 
 Shim to [victorjs](victorjs.org) npm package.
